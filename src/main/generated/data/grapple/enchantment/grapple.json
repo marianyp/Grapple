@@ -1,0 +1,56 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "enchantment.grapple.grapple"
+  },
+  "effects": {
+    "minecraft:grapple_cooldown": {
+      "type": "minecraft:add",
+      "value": {
+        "type": "minecraft:lookup",
+        "fallback": 35.0,
+        "values": [
+          60.0,
+          40.0,
+          35.0
+        ]
+      }
+    },
+    "minecraft:grapple_force": {
+      "type": "minecraft:add",
+      "value": {
+        "type": "minecraft:lookup",
+        "fallback": 1.465,
+        "values": [
+          1.245,
+          1.345,
+          1.465
+        ]
+      }
+    },
+    "minecraft:grapple_vertical_force_multiplier": {
+      "type": "minecraft:add",
+      "value": {
+        "type": "minecraft:lookup",
+        "fallback": 1.35,
+        "values": [
+          1.1,
+          1.2,
+          1.35
+        ]
+      }
+    }
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 0
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 0
+  },
+  "slots": [],
+  "supported_items": "#minecraft:enchantable/fishing",
+  "weight": 1
+}

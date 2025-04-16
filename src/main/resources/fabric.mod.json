@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "grapple",
+  "version": "${version}",
+  "name": "Grapple",
+  "description": "Utilize your fishing rod for convenient movement.",
+  "authors": [
+    "uhmbyee / Mariany Pinkston"
+  ],
+  "contact": {
+    "homepage": "https://www.mariany.dev/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "ARR",
+  "icon": "assets/grapple/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.mariany.grapple.Grapple"
+    ],
+    "fabric-datagen": [
+      "dev.mariany.grapple.GrappleDataGenerator"
+    ]
+  },
+  "mixins": [
+    "grapple.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.13",
+    "minecraft": "~1.21.5",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+  }
+}

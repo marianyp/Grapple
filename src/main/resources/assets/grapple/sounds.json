@@ -1,0 +1,11 @@
+{
+  "grapple": {
+    "subtitle": "subtitles.grapple",
+    "sounds": [
+      {
+        "name": "grapple:grapple",
+        "stream": false
+      }
+    ]
+  }
+}
